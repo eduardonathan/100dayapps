@@ -1,0 +1,17 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Camiseta Preta",
+      "category": "roupas",
+      "price": 49.9
+    },
+    {
+      "id": "2",
+      "name": "Tênis Esportivo",
+      "category": "calçados",
+      "price": 199.9
+    },
+    { "id": "3", "name": "Boné Cinza", "category": "acessórios", "price": 39.9 }
+  ]
+}

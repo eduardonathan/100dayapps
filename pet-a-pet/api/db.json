@@ -1,0 +1,19 @@
+{
+  "adoptions": [
+    {
+      "petName": "Jakezinho",
+      "species": "Cachorro",
+      "age": 8,
+      "status": "adotado",
+      "id": "GNDzEG1LiXo"
+    },
+    {
+      "petName": "cami",
+      "species": "bambi",
+      "age": 22,
+      "status": "do edd",
+      "id": "Q99ThqlJ3yI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,47 @@
+{
+  "salas": [
+    {
+      "nome": "Itália",
+      "capacidade": 10,
+      "andar": "2",
+      "id": "9nXhwH0pgRo"
+    },
+    {
+      "nome": "Espanha",
+      "capacidade": 2,
+      "andar": "10",
+      "id": "SHJVOqR009k"
+    },
+    {
+      "nome": "França",
+      "capacidade": 6,
+      "andar": "5",
+      "id": "kP3mZx9Ql2A"
+    },
+    {
+      "nome": "Alemanha",
+      "capacidade": 8,
+      "andar": "7",
+      "id": "b7Yt2Vn4Rq1"
+    },
+    {
+      "nome": "Japão",
+      "capacidade": 4,
+      "andar": "2",
+      "id": "wL9dC6Ht0sM"
+    },
+    {
+      "nome": "Canadá",
+      "capacidade": 12,
+      "andar": "1",
+      "id": "j4Xf8Pw3Bn6"
+    },
+    {
+      "nome": "Portugal",
+      "capacidade": 3,
+      "andar": "9",
+      "id": "r2Sk5Lm7Vc0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

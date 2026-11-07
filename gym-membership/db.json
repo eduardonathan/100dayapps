@@ -1,0 +1,9 @@
+{
+  "members": [
+    { "id": "1", "name": "Ana Souza", "plan": "Mensal", "status": "Ativo" },
+    { "id": "2", "name": "Bruno Lima", "plan": "Trimestral", "status": "Ativo" },
+    { "id": "3", "name": "Carla Mendes", "plan": "Anual", "status": "Inativo" },
+    { "id": "4", "name": "Diego Rocha", "plan": "Mensal", "status": "Suspenso" },
+    { "id": "5", "name": "Elisa Martins", "plan": "Semestral", "status": "Ativo" }
+  ]
+}

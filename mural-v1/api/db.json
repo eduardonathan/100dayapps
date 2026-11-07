@@ -1,0 +1,10 @@
+{
+  "recados": [
+    {
+      "texto": "ed",
+      "curtidas": 2,
+      "id": "t0EwWzNl8Oc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

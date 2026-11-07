@@ -1,0 +1,17 @@
+# Dependências e builds
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Segredos (ex.: chave da API OMDB nos projetos movielist)
+.env
+.env.*
+!.env.example
+*.local
+
+# Anotações pessoais e do Claude Code
+CLAUDE.md
+.claude/
+
+# Sistema
+.DS_Store

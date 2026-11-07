@@ -1,0 +1,41 @@
+{
+  "produtos": [
+    {
+      "nome": "bb",
+      "preco": 23,
+      "quantidade": 12,
+      "id": "mfBqosHTE-M"
+    },
+    {
+      "nome": "aa",
+      "preco": 213,
+      "quantidade": 123,
+      "id": "izRntdOIOe4"
+    },
+    {
+      "nome": "ed",
+      "preco": 123,
+      "quantidade": 1,
+      "id": "paHDNoduKM8"
+    },
+    {
+      "nome": "gabiceta",
+      "preco": 1,
+      "quantidade": 1,
+      "id": "uNRQgWELQR4"
+    },
+    {
+      "nome": "cudo gabiceta",
+      "preco": null,
+      "quantidade": 1,
+      "id": "LUp0Ft66KUE"
+    },
+    {
+      "nome": "edao",
+      "preco": 1020,
+      "quantidade": 1,
+      "id": "ah_xd4unksI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

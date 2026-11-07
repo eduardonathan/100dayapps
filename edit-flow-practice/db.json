@@ -1,0 +1,7 @@
+{
+  "categories": [
+    { "id": "cat-1", "name": "Notebooks" },
+    { "id": "cat-2", "name": "Celulares" },
+    { "id": "cat-3", "name": "Fardamento" }
+  ]
+}

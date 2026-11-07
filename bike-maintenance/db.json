@@ -1,0 +1,9 @@
+{
+  "maintenanceRecords": [
+    { "id": "1", "bikeModel": "Caloi Elite Carbon", "serviceType": "Troca de corrente", "cost": 120 },
+    { "id": "2", "bikeModel": "Specialized Rockhopper", "serviceType": "Revisão completa", "cost": 350 },
+    { "id": "3", "bikeModel": "Trek Marlin 7", "serviceType": "Sangria do freio hidráulico", "cost": 180 },
+    { "id": "4", "bikeModel": "Oggi Big Wheel 7.0", "serviceType": "Troca de pneus", "cost": 260 },
+    { "id": "5", "bikeModel": "Sense Impact Pro", "serviceType": "Regulagem de câmbio", "cost": 80 }
+  ]
+}

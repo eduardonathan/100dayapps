@@ -1,0 +1,19 @@
+{
+  "deliveryOrders": [
+    {
+      "customerName": "Ed Ney",
+      "restaurant": "Mequi",
+      "status": "Em andamento",
+      "deliveryFee": 4.6,
+      "id": "Szf-uVUAkiw"
+    },
+    {
+      "customerName": "Mica Mau",
+      "restaurant": "Subway",
+      "status": "Entregue",
+      "deliveryFee": 5,
+      "id": "LqZaQmfbW7Y"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

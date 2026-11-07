@@ -1,0 +1,19 @@
+{
+  "subscriptions": [
+    {
+      "serviceName": "Netflix",
+      "plan": "Básicoo",
+      "price": 20.9,
+      "renewDate": "2026-09-24",
+      "id": "SggEI0E0jGw"
+    },
+    {
+      "serviceName": "Spotify",
+      "plan": "Premium",
+      "price": 50,
+      "renewDate": "2026-09-24",
+      "id": "6pPxdpvkZak"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

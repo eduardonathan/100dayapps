@@ -1,0 +1,77 @@
+{
+  "repairOrders": [
+    {
+      "id": "1",
+      "customerName": "Ana Beatriz Souza",
+      "deviceModel": "iPhone 12",
+      "issue": "Tela trincada e touch sem resposta na parte superior",
+      "cost": 480,
+      "status": "Aguardando peça"
+    },
+    {
+      "id": "2",
+      "customerName": "Carlos Eduardo Lima",
+      "deviceModel": "Samsung Galaxy S21",
+      "issue": "Bateria descarregando muito rápido e aparelho esquentando",
+      "cost": 220,
+      "status": "Em análise"
+    },
+    {
+      "id": "3",
+      "customerName": "Mariana Oliveira",
+      "deviceModel": "Xiaomi Redmi Note 11",
+      "issue": "Não carrega ao conectar o cabo, conector USB frouxo",
+      "cost": 150,
+      "status": "Em reparo"
+    },
+    {
+      "id": "4",
+      "customerName": "João Pedro Fernandes",
+      "deviceModel": "Motorola Moto G32",
+      "issue": "Alto-falante sem áudio durante chamadas",
+      "cost": 130,
+      "status": "Concluído"
+    },
+    {
+      "id": "5",
+      "customerName": "Fernanda Costa",
+      "deviceModel": "iPhone 13 Pro",
+      "issue": "Câmera traseira com imagem tremida e foco não funciona",
+      "cost": 690,
+      "status": "Aguardando aprovação do cliente"
+    },
+    {
+      "id": "6",
+      "customerName": "Rafael Almeida",
+      "deviceModel": "Samsung Galaxy A54",
+      "issue": "Aparelho caiu na água e não liga",
+      "cost": 350,
+      "status": "Em análise"
+    },
+    {
+      "id": "7",
+      "customerName": "Juliana Martins",
+      "deviceModel": "Xiaomi Poco X5",
+      "issue": "Botão de volume travado e vibração constante",
+      "cost": 115,
+      "status": "Concluído"
+    },
+    {
+      "id": "8",
+      "customerName": "Bruno Henrique Rocha",
+      "deviceModel": "iPhone 11",
+      "issue": "Face ID parou de funcionar após queda",
+      "cost": 550,
+      "status": "Em reparo"
+    },
+    {
+      "customerName": "Camily Gomes",
+      "deviceModel": "Iphone 11",
+      "issue": "Venda",
+      "cost": 1500,
+      "status": "Concluído",
+      "id": "08YKjj1_GHA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

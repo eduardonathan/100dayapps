@@ -1,0 +1,93 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "requesterName": "Ana Souza",
+      "subject": "Não consigo acessar meu e-mail corporativo",
+      "category": "E-mail",
+      "priority": "Alta",
+      "status": "Resolvido"
+    },
+    {
+      "id": "2",
+      "requesterName": "Bruno Carvalho",
+      "subject": "Impressora do 3º andar sem conexão com a rede",
+      "category": "Hardware",
+      "priority": "Média",
+      "status": "Em andamento"
+    },
+    {
+      "id": "3",
+      "requesterName": "Carla Mendes",
+      "subject": "Solicitação de instalação do Photoshop",
+      "category": "Software",
+      "priority": "Baixa",
+      "status": "Aberto"
+    },
+    {
+      "id": "4",
+      "requesterName": "Diego Ramos",
+      "subject": "VPN cai constantemente durante reuniões",
+      "category": "Rede",
+      "priority": "Alta",
+      "status": "Em andamento"
+    },
+    {
+      "id": "5",
+      "requesterName": "Eduarda Lima",
+      "subject": "Notebook não liga após atualização",
+      "category": "Hardware",
+      "priority": "Crítica",
+      "status": "Aberto"
+    },
+    {
+      "id": "6",
+      "requesterName": "Felipe Antunes",
+      "subject": "Reset de senha do sistema ERP",
+      "category": "Acesso",
+      "priority": "Média",
+      "status": "Resolvido"
+    },
+    {
+      "id": "7",
+      "requesterName": "Gabriela Nunes",
+      "subject": "Tela azul recorrente ao abrir planilhas grandes",
+      "category": "Software",
+      "priority": "Alta",
+      "status": "Em andamento"
+    },
+    {
+      "id": "8",
+      "requesterName": "Henrique Barros",
+      "subject": "Criar novo usuário para colaborador recém-contratado",
+      "category": "Acesso",
+      "priority": "Média",
+      "status": "Aberto"
+    },
+    {
+      "id": "9",
+      "requesterName": "Isabela Rocha",
+      "subject": "Wi-Fi da sala de treinamento sem sinal",
+      "category": "Rede",
+      "priority": "Baixa",
+      "status": "Resolvido"
+    },
+    {
+      "id": "10",
+      "requesterName": "João Pedro Alves",
+      "subject": "Monitor secundário não é reconhecido pelo dock",
+      "category": "Hardware",
+      "priority": "Média",
+      "status": "Aberto"
+    },
+    {
+      "requesterName": "ney",
+      "subject": "lindo",
+      "category": "Rede",
+      "priority": "Média",
+      "status": "Aberto",
+      "id": "dmSZjcF-2QA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

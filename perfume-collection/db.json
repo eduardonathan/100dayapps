@@ -1,0 +1,44 @@
+{
+  "perfumes": [
+    {
+      "id": "1",
+      "name": "Chanel Nº 5",
+      "brand": "Chanel",
+      "volumeMl": 100,
+      "launchYear": 1921,
+      "price": 1149.9
+    },
+    {
+      "id": "2",
+      "name": "Sauvage",
+      "brand": "Dior",
+      "volumeMl": 100,
+      "launchYear": 2015,
+      "price": 899.9
+    },
+    {
+      "id": "3",
+      "name": "Acqua di Giò",
+      "brand": "Giorgio Armani",
+      "volumeMl": 75,
+      "launchYear": 1996,
+      "price": 649.9
+    },
+    {
+      "id": "4",
+      "name": "Malbec",
+      "brand": "O Boticário",
+      "volumeMl": 100,
+      "launchYear": 2004,
+      "price": 219.9
+    },
+    {
+      "name": "Scandal",
+      "brand": "Versace",
+      "volumeMl": 100,
+      "launchYear": 2019,
+      "price": 2000,
+      "id": "ZXeIMfl"
+    }
+  ]
+}

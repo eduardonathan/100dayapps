@@ -1,0 +1,176 @@
+{
+  "ticket_categories": [
+    {
+      "id": 1,
+      "name": "Acesso e login"
+    },
+    {
+      "id": 2,
+      "name": "Pagamento"
+    },
+    {
+      "id": 3,
+      "name": "Entrega"
+    },
+    {
+      "id": 4,
+      "name": "App travando"
+    },
+    {
+      "id": 5,
+      "name": "Cadastro"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "code": "CH-0001",
+      "title": "Não consigo entrar no app",
+      "description": "Aparece 'senha inválida' mesmo com a senha certa.",
+      "category_id": 1,
+      "assignee_name": "Marina Alves",
+      "status": "open",
+      "created_at": "2026-10-01T11:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "code": "CH-0002",
+      "title": "Cobrança em duplicidade",
+      "description": "Fui cobrado duas vezes no mesmo pedido.",
+      "category_id": 2,
+      "assignee_name": "Rafael Costa",
+      "status": "in_progress",
+      "created_at": "2026-10-02T12:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "code": "CH-0003",
+      "title": "Pedido atrasado mais de 1h",
+      "description": null,
+      "category_id": 3,
+      "assignee_name": null,
+      "status": "open",
+      "created_at": "2026-10-03T13:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "code": "CH-0004",
+      "title": "App fecha ao abrir o carrinho",
+      "description": "Acontece no Android 14.",
+      "category_id": 4,
+      "assignee_name": "Marina Alves",
+      "status": "in_progress",
+      "created_at": "2026-10-04T14:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "code": "CH-0005",
+      "title": "Quero trocar meu e-mail",
+      "description": null,
+      "category_id": 5,
+      "assignee_name": "Lucas Pereira",
+      "status": "resolved",
+      "created_at": "2026-10-05T15:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "code": "CH-0006",
+      "title": "Pix não confirmou",
+      "description": "Paguei e o pedido continua aguardando.",
+      "category_id": 2,
+      "assignee_name": null,
+      "status": "open",
+      "created_at": "2026-10-06T16:00:00.000Z"
+    },
+    {
+      "id": 7,
+      "code": "CH-0007",
+      "title": "Entregador não encontrou o endereço",
+      "description": "O número da casa está certo no cadastro.",
+      "category_id": 3,
+      "assignee_name": "Rafael Costa",
+      "status": "resolved",
+      "created_at": "2026-10-07T17:00:00.000Z"
+    },
+    {
+      "id": 8,
+      "code": "CH-0008",
+      "title": "Recuperação de senha não chega",
+      "description": null,
+      "category_id": 1,
+      "assignee_name": "Lucas Pereira",
+      "status": "closed",
+      "created_at": "2026-10-08T18:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "code": "CH-0009",
+      "title": "Tela branca depois da atualização",
+      "description": null,
+      "category_id": 4,
+      "assignee_name": null,
+      "status": "open",
+      "created_at": "2026-10-09T19:00:00.000Z"
+    },
+    {
+      "id": 10,
+      "code": "CH-0010",
+      "title": "CPF já cadastrado",
+      "description": "Nunca criei conta antes.",
+      "category_id": 5,
+      "assignee_name": "Marina Alves",
+      "status": "in_progress",
+      "created_at": "2026-10-10T10:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "code": "CH-0011",
+      "title": "Estorno não caiu",
+      "description": "Já faz 10 dias.",
+      "category_id": 2,
+      "assignee_name": "Rafael Costa",
+      "status": "closed",
+      "created_at": "2026-10-11T11:00:00.000Z"
+    },
+    {
+      "id": 12,
+      "code": "CH-0012",
+      "title": "Botijão veio errado",
+      "description": "Pedi P13 e veio P45.",
+      "category_id": 3,
+      "assignee_name": null,
+      "status": "resolved",
+      "created_at": "2026-10-12T12:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "code": "CH-0013",
+      "title": "Notificação não aparece",
+      "description": null,
+      "category_id": 4,
+      "assignee_name": "Lucas Pereira",
+      "status": "closed",
+      "created_at": "2026-10-13T13:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "code": "CH-0014",
+      "title": "Login com Google não funciona",
+      "description": "Fica carregando para sempre.",
+      "category_id": 1,
+      "assignee_name": null,
+      "status": "open",
+      "created_at": "2026-10-14T14:00:00.000Z"
+    },
+    {
+      "id": 15,
+      "code": "CH-0015",
+      "title": "Endereço não salva",
+      "description": "Clico em salvar e nada acontece.",
+      "category_id": 5,
+      "assignee_name": "Marina Alves",
+      "status": "resolved",
+      "created_at": "2026-10-15T15:00:00.000Z"
+    }
+  ]
+}

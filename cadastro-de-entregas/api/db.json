@@ -1,0 +1,17 @@
+{
+  "entregas": [
+    {
+      "destinatario": "Camily gomes",
+      "endereco": "R. Catagua, 346",
+      "status": "Entregue",
+      "id": "1U0F7HXxblA"
+    },
+    {
+      "destinatario": "Eduardo Nathan",
+      "endereco": "R, Resedá, 109",
+      "status": "Devolvido",
+      "id": "Qsj4BVFBWMo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,26 @@
+{
+  "maintenances": [
+    {
+      "vehicle": "nisssan versa",
+      "typeSerivce": "passar scanner",
+      "price": 500,
+      "status": "feito",
+      "id": "Tr93zwayRpE"
+    },
+    {
+      "vehicle": "gol bolinha",
+      "typeSerivce": "insufilm",
+      "price": 1150,
+      "status": "em andamento",
+      "id": "Df4ONbKK3pk"
+    },
+    {
+      "vehicle": "Corsa Hatch Gustavo",
+      "typeSerivce": "Troca de oleo",
+      "price": 200,
+      "status": "a fazer",
+      "id": "2giHRcwkJNQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

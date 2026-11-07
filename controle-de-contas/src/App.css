@@ -1,0 +1,268 @@
+.page {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 24px 80px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.page-header {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.kicker {
+  display: block;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+
+.page-header h1 {
+  margin: 0;
+}
+
+.page-header p {
+  color: var(--text);
+  margin-top: 6px;
+  font-size: 15px;
+}
+
+.bill-form {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 18px 20px;
+  align-items: end;
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 48px;
+  box-sizing: border-box;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.field span {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text);
+}
+
+.field input {
+  width: 100%;
+  min-width: 0;
+  font-family: var(--sans);
+  font-size: 15px;
+  padding: 6px 2px 8px;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  background: transparent;
+  color: var(--text-h);
+  box-sizing: border-box;
+  transition: border-color 0.15s;
+}
+
+.field input:focus {
+  outline: none;
+  border-bottom: 1px solid var(--accent);
+}
+
+.field input::placeholder {
+  color: var(--text);
+  opacity: 0.5;
+}
+
+.bill-form button {
+  grid-column: 1 / -1;
+  justify-self: end;
+  margin-top: 4px;
+}
+
+button {
+  font: inherit;
+  font-family: var(--sans);
+  font-weight: 500;
+  font-size: 14px;
+  padding: 9px 16px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.btn-primary {
+  background: var(--text-h);
+  border-color: var(--text-h);
+  color: var(--bg);
+}
+
+.btn-primary:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.state-message {
+  text-align: left;
+  color: var(--text);
+  padding: 20px 0;
+}
+
+.state-message.error {
+  color: var(--danger);
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: 3px;
+}
+
+.bill-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+
+.bill-table thead th {
+  text-align: left;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text);
+  padding: 10px 16px;
+  background: var(--code-bg);
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.bill-table tbody tr {
+  border-bottom: 1px solid var(--border);
+}
+
+.bill-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.bill-table td {
+  padding: 12px 16px;
+  color: var(--text-h);
+  vertical-align: middle;
+}
+
+.col-total {
+  font-family: var(--mono);
+}
+
+.col-date {
+  font-family: var(--mono);
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.col-status input {
+  font: inherit;
+  font-size: 14px;
+  padding: 4px 6px;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  border-radius: 0;
+  background: transparent;
+  color: var(--text-h);
+}
+
+.col-status input:focus {
+  outline: none;
+  border-bottom-color: var(--accent);
+}
+
+.status {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  padding-left: 12px;
+  position: relative;
+}
+
+.status::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--text);
+}
+
+.status.paid::before {
+  background: var(--accent);
+}
+
+.status.pending::before {
+  background: var(--warn);
+}
+
+.status.overdue::before {
+  background: var(--danger);
+}
+
+.col-actions {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.btn-text {
+  background: none;
+  border: none;
+  padding: 4px 8px;
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: var(--border);
+}
+
+.btn-text:hover {
+  color: var(--text-h);
+  text-decoration-color: var(--text-h);
+}
+
+.btn-text.danger:hover {
+  color: var(--danger);
+  text-decoration-color: var(--danger);
+}
+
+@media (max-width: 640px) {
+  .bill-form {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .bill-form button {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+}
+
+@media (max-width: 440px) {
+  .bill-form {
+    grid-template-columns: 1fr;
+  }
+}

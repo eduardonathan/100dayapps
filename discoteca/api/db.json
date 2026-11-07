@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "albumTitle": "The Dark Side of the Moon",
+      "artist": "Pink Floyd",
+      "year": 1973,
+      "status": "novo",
+      "id": "GNDzEG1LiXo"
+    },
+    {
+      "albumTitle": "Aja",
+      "artist": "Steely Dan",
+      "year": 1977,
+      "status": "riscado",
+      "id": "Q99ThqlJ3yI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

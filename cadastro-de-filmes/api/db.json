@@ -1,0 +1,35 @@
+{
+  "filmes": [
+    {
+      "titulo": "O regressoo",
+      "genero": "Suspense",
+      "duracaoMinutos": 186,
+      "id": "6lNtIln5eG8"
+    },
+    {
+      "titulo": "Interestelar",
+      "genero": "Ficção Científica",
+      "duracaoMinutos": 169,
+      "id": "zSWdZVtXT7E"
+    },
+    {
+      "titulo": "O Poderoso Chefão",
+      "genero": "Drama",
+      "duracaoMinutos": 175,
+      "id": "sY1S34973zA"
+    },
+    {
+      "titulo": "Coringaa",
+      "genero": "Drama",
+      "duracaoMinutos": 122,
+      "id": "zAGVQLHvwOY"
+    },
+    {
+      "titulo": "Toy Story",
+      "genero": "Animação",
+      "duracaoMinutos": 81,
+      "id": "KYz2wyBy3kc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

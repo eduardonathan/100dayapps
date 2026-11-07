@@ -1,0 +1,59 @@
+{
+  "equipments": [
+    {
+      "id": "eq-1",
+      "name": "Notebook Dell",
+      "serial_number": "DL-1001"
+    },
+    {
+      "id": "eq-2",
+      "name": "iPhone 18",
+      "serial_number": "AP-2002"
+    },
+    {
+      "id": "eq-3",
+      "name": "Monitor LG",
+      "serial_number": "LG-3002"
+    },
+    {
+      "id": "eq-1793842906153",
+      "name": "ney",
+      "serial_number": "2027"
+    },
+    {
+      "id": "eq-1793842910761",
+      "name": "ney",
+      "serial_number": "2027"
+    },
+    {
+      "id": "eq-1793842951268",
+      "name": "teste",
+      "serial_number": "1991"
+    },
+    {
+      "id": "eq-1793842981574",
+      "name": "teste2",
+      "serial_number": "1921"
+    },
+    {
+      "id": "eq-1793843478697",
+      "name": "aa",
+      "serial_number": "123"
+    },
+    {
+      "id": "eq-1793843494877",
+      "name": "asd",
+      "serial_number": "21124"
+    },
+    {
+      "id": "eq-1793843860404",
+      "name": "asdds",
+      "serial_number": "2134"
+    },
+    {
+      "id": "eq-1794015555176",
+      "name": "ed",
+      "serial_number": "123123"
+    }
+  ]
+}

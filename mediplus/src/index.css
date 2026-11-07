@@ -1,0 +1,287 @@
+:root {
+  /* Paleta de farmácia: verde clínico, branco, neutros frios */
+  --green-900: #0b3d29;
+  --green-800: #0d5537;
+  --green-700: #0f6b45;
+  --green-600: #157a51;
+  --green-500: #1f8f60;
+  --green-100: #d7ebe1;
+  --green-50: #eef6f2;
+
+  --ink: #17251f;
+  --body: #46564f;
+  --muted: #7a8a82;
+  --faint: #9aa8a1;
+
+  --bg: #f2f6f4;
+  --surface: #ffffff;
+  --surface-2: #f7faf8;
+  --border: #dde6e1;
+  --border-strong: #ccd8d2;
+
+  --amber-700: #946412;
+  --amber-50: #f7efdc;
+  --amber-100: #ecdcb6;
+  --red-700: #a63328;
+  --red-50: #f7e6e3;
+  --red-100: #ecccc6;
+
+  --radius-lg: 14px;
+  --radius: 10px;
+  --radius-sm: 8px;
+
+  --shadow-sm: 0 1px 2px rgba(15, 40, 28, 0.06);
+  --shadow-md:
+    0 1px 2px rgba(15, 40, 28, 0.06), 0 10px 30px -14px rgba(15, 40, 28, 0.18);
+
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--body);
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--green-700);
+}
+
+/* ---- Botões ---- */
+.btn {
+  --btn-bg: var(--surface);
+  --btn-fg: var(--ink);
+  --btn-bd: var(--border-strong);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 10px 16px;
+  border: 1px solid var(--btn-bd);
+  border-radius: var(--radius-sm);
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.04s ease;
+}
+
+.btn:hover {
+  background: var(--surface-2);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--green-500);
+  outline-offset: 2px;
+}
+
+.btn--primary {
+  --btn-bg: var(--green-700);
+  --btn-fg: #ffffff;
+  --btn-bd: var(--green-700);
+}
+
+.btn--primary:hover {
+  background: var(--green-800);
+  border-color: var(--green-800);
+}
+
+.btn--ghost {
+  --btn-bg: transparent;
+  --btn-bd: transparent;
+  --btn-fg: var(--body);
+}
+
+.btn--ghost:hover {
+  background: var(--green-50);
+  color: var(--green-800);
+}
+
+.btn--danger {
+  --btn-fg: var(--red-700);
+}
+
+.btn--danger:hover {
+  background: var(--red-50);
+  border-color: var(--red-100);
+}
+
+.btn--sm {
+  padding: 7px 12px;
+  font-size: 0.85rem;
+}
+
+.btn--block {
+  width: 100%;
+}
+
+/* ---- Campos de formulário ---- */
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field__label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--body);
+}
+
+.field__hint {
+  font-size: 0.78rem;
+  color: var(--faint);
+}
+
+.input {
+  width: 100%;
+  font: inherit;
+  font-size: 0.95rem;
+  color: var(--ink);
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.input::placeholder {
+  color: var(--faint);
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--green-500);
+  box-shadow: 0 0 0 3px var(--green-100);
+}
+
+/* ---- Selos de status ---- */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 4px 9px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+}
+
+.badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+.badge--ok {
+  color: var(--green-700);
+  background: var(--green-50);
+  border-color: var(--green-100);
+}
+
+.badge--warn {
+  color: var(--amber-700);
+  background: var(--amber-50);
+  border-color: var(--amber-100);
+}
+
+.badge--danger {
+  color: var(--red-700);
+  background: var(--red-50);
+  border-color: var(--red-100);
+}
+
+.badge--neutral {
+  color: var(--muted);
+  background: var(--surface-2);
+  border-color: var(--border);
+}
+
+/* ---- Cartão ---- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+
+/* ---- Marca ---- */
+.brandmark {
+  display: inline-flex;
+  flex: none;
+  color: var(--green-700);
+}
+
+.brandmark svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.brandmark__tile {
+  fill: currentColor;
+}
+
+.brandmark__cross {
+  fill: #ffffff;
+}

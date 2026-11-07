@@ -1,0 +1,282 @@
+/* ============================================================
+   GYM SHARKS — base + design tokens
+   Pegada atlética: abismo escuro, aço, ciano "dente de tubarão".
+   ============================================================ */
+
+:root {
+  /* superfícies */
+  --abyss: #0b0f14;
+  --panel: #121820;
+  --panel-2: #0f151c;
+  --raise: #17212b;
+  --line: #1e2a35;
+  --line-soft: #172029;
+
+  /* texto */
+  --ink: #e6edf3;
+  --ink-dim: #9fb0bd;
+  --ink-mute: #6b7c8a;
+
+  /* acentos */
+  --tooth: #17e0c4; /* ciano lâmina — CTA / foco */
+  --tooth-deep: #0fb6a0;
+  --tooth-glow: rgba(23, 224, 196, 0.14);
+  --blood: #ff5c38; /* destrutivo / alerta */
+  --blood-soft: rgba(255, 92, 56, 0.12);
+  --amber: #f2b53b;
+
+  /* modalidades */
+  --m-musculacao: #ff5c38;
+  --m-pilates: #c084fc;
+  --m-yoga: #37d67a;
+  --m-spinning: #f2b53b;
+  --m-cross: #17e0c4;
+  --m-natacao: #3b9dff;
+  --m-boxe: #ff4d6d;
+  --m-funcional: #a0f000;
+  --m-jiujitsu: #6b7bff;
+
+  --radius: 4px;
+  --radius-lg: 8px;
+  --shadow: 0 18px 40px -20px rgba(0, 0, 0, 0.75);
+  --ring: 0 0 0 2px var(--abyss), 0 0 0 4px var(--tooth);
+
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --display: "Oswald", "Inter", system-ui, sans-serif;
+
+  color-scheme: dark;
+  font: 400 16px/1.55 var(--sans);
+  color: var(--ink);
+  background: var(--abyss);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100svh;
+  background:
+    radial-gradient(1100px 520px at 82% -8%, rgba(23, 224, 196, 0.06), transparent 60%),
+    radial-gradient(900px 500px at 5% 110%, rgba(59, 157, 255, 0.05), transparent 55%),
+    var(--abyss);
+  background-attachment: fixed;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--tooth);
+  text-decoration: none;
+}
+
+/* ---- form controls ---- */
+
+input,
+select,
+button,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field > label {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+}
+
+.control {
+  width: 100%;
+  padding: 11px 13px;
+  background: var(--panel-2);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--ink);
+  transition:
+    border-color 0.15s ease,
+    box-shadow 0.15s ease,
+    background 0.15s ease;
+  appearance: none;
+}
+
+.control::placeholder {
+  color: var(--ink-mute);
+}
+
+.control:hover {
+  border-color: #2b3b49;
+}
+
+.control:focus,
+.control:focus-visible {
+  outline: none;
+  border-color: var(--tooth);
+  background: var(--panel);
+  box-shadow: 0 0 0 3px var(--tooth-glow);
+}
+
+select.control {
+  background-image: linear-gradient(45deg, transparent 50%, var(--ink-dim) 50%),
+    linear-gradient(135deg, var(--ink-dim) 50%, transparent 50%);
+  background-position:
+    calc(100% - 18px) center,
+    calc(100% - 13px) center;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  padding-right: 34px;
+  cursor: pointer;
+}
+
+select.control option {
+  background: var(--panel);
+  color: var(--ink);
+}
+
+/* input[type=time] no dark */
+input[type="time"].control::-webkit-calendar-picker-indicator {
+  filter: invert(0.7);
+  cursor: pointer;
+}
+
+/* ---- buttons ---- */
+
+.btn {
+  --btn-bg: var(--raise);
+  --btn-fg: var(--ink);
+  --btn-bd: var(--line);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 18px;
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  border: 1px solid var(--btn-bd);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition:
+    transform 0.12s ease,
+    background 0.15s ease,
+    border-color 0.15s ease,
+    box-shadow 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  border-color: #33454f;
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn:focus-visible {
+  outline: none;
+  box-shadow: var(--ring);
+}
+
+.btn--primary {
+  --btn-bg: var(--tooth);
+  --btn-fg: #052b26;
+  --btn-bd: var(--tooth);
+  box-shadow: 0 10px 24px -12px var(--tooth-deep);
+}
+
+.btn--primary:hover {
+  --btn-bg: #2ef0d3;
+  border-color: #2ef0d3;
+}
+
+.btn--ghost {
+  --btn-bg: transparent;
+  --btn-bd: var(--line);
+  color: var(--ink-dim);
+}
+
+.btn--danger {
+  --btn-bg: transparent;
+  --btn-fg: var(--blood);
+  --btn-bd: rgba(255, 92, 56, 0.35);
+}
+
+.btn--danger:hover {
+  --btn-bg: var(--blood-soft);
+  border-color: var(--blood);
+}
+
+.btn--sm {
+  padding: 8px 13px;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--abyss);
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2c37;
+  border-radius: 999px;
+  border: 2px solid var(--abyss);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2b3b47;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,401 @@
+/* ============ Layout base ============ */
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* ============ Cabeçalho ============ */
+.app-header {
+  text-align: center;
+  padding: 64px 0 8px;
+}
+
+.app-header .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+
+.app-header h1 {
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  line-height: 1.05;
+  margin: 20px 0 12px;
+}
+
+.app-header h1 em {
+  font-style: italic;
+  color: var(--accent);
+}
+
+.app-header .subtitle {
+  max-width: 44ch;
+  margin: 0 auto;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+/* ============ Cartões genéricos ============ */
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+/* ============ Formulário ============ */
+.recipe-form {
+  padding: 32px;
+}
+
+.recipe-form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 4px;
+}
+
+.recipe-form .form-hint {
+  color: var(--muted);
+  font-size: 0.95rem;
+  margin-bottom: 24px;
+}
+
+.recipe-form form {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.field label {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.field input,
+.field select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface-soft);
+  color: var(--ink);
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    background 0.18s ease;
+}
+
+.field input::placeholder {
+  color: #b6a998;
+}
+
+.field input:focus,
+.field select:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: var(--surface);
+  box-shadow: 0 0 0 4px var(--accent-ring);
+}
+
+.field select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%238a7d70' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 38px;
+}
+
+.recipe-form .form-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 4px;
+}
+
+/* ============ Botões ============ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 11px 22px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  transition:
+    transform 0.12s ease,
+    background 0.18s ease,
+    box-shadow 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease;
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--accent-ring);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  box-shadow: var(--shadow-sm);
+}
+
+.btn-primary:hover {
+  background: var(--accent-hover);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ink-soft);
+  border-color: var(--border-strong);
+}
+
+.btn-ghost:hover {
+  background: var(--bg-tint);
+  color: var(--ink);
+}
+
+.btn-danger {
+  background: transparent;
+  color: var(--danger);
+  border-color: var(--danger-soft);
+}
+
+.btn-danger:hover {
+  background: var(--danger-soft);
+}
+
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 0.9rem;
+}
+
+/* ============ Seção da lista ============ */
+.recipes-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-head h2 {
+  font-size: 1.6rem;
+}
+
+.section-head .count {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+  background: var(--bg-tint);
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+
+.recipes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 22px;
+}
+
+/* ============ Estados (loading / vazio / erro) ============ */
+.state {
+  text-align: center;
+  padding: 56px 32px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+  background: var(--surface-soft);
+  color: var(--muted);
+}
+
+.state .state-icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+  color: var(--muted);
+}
+
+.state.state-error .state-icon {
+  color: var(--danger);
+}
+
+.icon-spin {
+  animation: icon-spin 0.9s linear infinite;
+}
+
+@keyframes icon-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.state.state-error {
+  border-color: var(--danger-soft);
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+/* ============ Cartão de receita ============ */
+.recipe-card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 0.16s ease,
+    box-shadow 0.16s ease,
+    border-color 0.16s ease;
+}
+
+.recipe-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--border-strong);
+}
+
+.recipe-card .card-kicker {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.recipe-card h3 {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  margin: 6px 0 4px;
+}
+
+.recipe-card .main-ingredient {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.recipe-card .card-divider {
+  height: 1px;
+  background: var(--border);
+  margin: 18px 0;
+}
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 5px 12px;
+  border-radius: 999px;
+  background: var(--bg-tint);
+  color: var(--ink-soft);
+}
+
+.badge.badge-time {
+  background: var(--honey-soft);
+  color: #8a5d1c;
+}
+
+.badge.badge-diff-facil {
+  background: var(--herb-soft);
+  color: #46543a;
+}
+
+.badge.badge-diff-medio {
+  background: var(--honey-soft);
+  color: #8a5d1c;
+}
+
+.badge.badge-diff-dificil {
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.recipe-card .card-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.recipe-card .card-actions .btn {
+  flex: 1;
+}
+
+/* modo edição dentro do cartão */
+.recipe-card .card-edit {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 4px;
+}
+
+.recipe-card .card-edit .field input,
+.recipe-card .card-edit .field select {
+  background: var(--surface-soft);
+}
+
+/* ============ Rodapé ============ */
+.app-footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.9rem;
+  padding-top: 8px;
+}
+
+/* ============ Responsivo ============ */
+@media (max-width: 640px) {
+  #root {
+    padding: 0 16px 64px;
+  }
+  .app-header {
+    padding-top: 44px;
+  }
+  .recipe-form {
+    padding: 24px;
+  }
+  .recipe-form form {
+    grid-template-columns: 1fr;
+  }
+}

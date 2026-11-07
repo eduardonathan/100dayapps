@@ -1,0 +1,12 @@
+{
+  "moviesWatched": [
+    {
+      "title": "ed",
+      "rate": 12,
+      "watchDate": "ontem",
+      "comment": "bommm",
+      "id": "iz7zTfGUZM4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

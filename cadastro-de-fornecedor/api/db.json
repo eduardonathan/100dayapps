@@ -1,0 +1,17 @@
+{
+  "fornecedores": [
+    {
+      "nome": "ED SEXSHOP",
+      "cnpj": "75929109302",
+      "telefone": "11942858992",
+      "id": "bBT6db9fxB0"
+    },
+    {
+      "nome": "asdasdw",
+      "cnpj": "sdfsafs",
+      "telefone": "asdada",
+      "id": "f4E1cJbwZUg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

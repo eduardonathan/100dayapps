@@ -1,0 +1,17 @@
+{
+  "funcionarios": [
+    {
+      "nome": "ed",
+      "cargo": "dev",
+      "salario": 123,
+      "id": "yaFTHSLJTcc"
+    },
+    {
+      "nome": "ed",
+      "cargo": "dev pleno",
+      "salario": 13000,
+      "id": "aJaSxF_6VG4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

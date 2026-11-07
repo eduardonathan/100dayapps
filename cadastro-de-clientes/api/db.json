@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nome": "Maria Silva",
+      "email": "maria.silva@email.com",
+      "id": "WgwSUk_lsxY"
+    },
+    {
+      "nome": "João Pereira",
+      "email": "joao.pereira@email.com",
+      "id": "Sx8B3aPy_zE"
+    },
+    {
+      "nome": "Ana Souza",
+      "email": "ana.souza@email.com",
+      "id": "AilwjyOI7nA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,92 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "plate": "BRA2E19",
+      "model": "Moto CG 160"
+    },
+    {
+      "id": 2,
+      "plate": "XYZ9K88",
+      "model": "Moto Biz 125"
+    },
+    {
+      "id": 3,
+      "plate": "ABC1D23",
+      "model": "Fiorino"
+    }
+  ],
+  "drivers": [
+    {
+      "id": 12,
+      "name": "Carlos Souza",
+      "phone": "11987654321",
+      "license_expires_at": "2027-03-31",
+      "shift_start": "08:00:00",
+      "shift_end": "17:30:00",
+      "work_days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vehicle_id": 3,
+      "fee_per_delivery_cents": 850,
+      "is_active": true,
+      "created_at": "2026-09-01T12:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "name": "Ana Lima",
+      "phone": "2133334444",
+      "license_expires_at": "2026-12-01",
+      "shift_start": "18:00:00",
+      "shift_end": "23:00:00",
+      "work_days": [
+        5,
+        6,
+        0
+      ],
+      "vehicle_id": null,
+      "fee_per_delivery_cents": 0,
+      "is_active": false,
+      "created_at": "2026-09-15T09:30:00.000Z"
+    },
+    {
+      "name": "neyy",
+      "phone": "11942858992",
+      "license_expires_at": "2040-01-18",
+      "shift_start": "09:00:00",
+      "shift_end": "18:00:00",
+      "work_days": [
+        5,
+        1
+      ],
+      "vehicle_id": 1,
+      "fee_per_delivery_cents": 1200,
+      "is_active": true,
+      "created_at": "2026-10-15T01:06:50.018Z",
+      "id": 14
+    },
+    {
+      "name": "gabigol",
+      "phone": "11943869093",
+      "license_expires_at": "2040-10-10",
+      "shift_start": "09:00:00",
+      "shift_end": "20:00:00",
+      "work_days": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "vehicle_id": 3,
+      "fee_per_delivery_cents": 1313,
+      "is_active": true,
+      "created_at": "2026-10-15T01:09:07.631Z",
+      "id": 15
+    }
+  ]
+}

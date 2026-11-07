@@ -1,0 +1,12 @@
+{
+  "medicines": [
+    {
+      "name": "Paracetamol",
+      "manufacturer": "Neo Quimica",
+      "quantity": 231,
+      "expirationDate": "23/04/2027",
+      "id": "zIOJtNKb4mc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

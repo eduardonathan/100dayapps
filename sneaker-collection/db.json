@@ -1,0 +1,44 @@
+{
+  "sneakers": [
+    {
+      "id": "1",
+      "model": "Air Jordan 1 High",
+      "brand": "Nike",
+      "size": 42,
+      "releaseYear": 1985,
+      "price": 1299.9
+    },
+    {
+      "id": "2",
+      "model": "Superstar",
+      "brand": "Adidas",
+      "size": 41,
+      "releaseYear": 1969,
+      "price": 599.9
+    },
+    {
+      "id": "3",
+      "model": "Chuck Taylor All Star",
+      "brand": "Converse",
+      "size": 40,
+      "releaseYear": 1917,
+      "price": 349.9
+    },
+    {
+      "id": "4",
+      "model": "Old Skool",
+      "brand": "Vans",
+      "size": 43,
+      "releaseYear": 1977,
+      "price": 449.9
+    },
+    {
+      "model": "Air Jordan Spider-man",
+      "brand": "Nike",
+      "size": 41,
+      "releaseYear": 2018,
+      "price": 1300,
+      "id": "Fo6TmGx"
+    }
+  ]
+}

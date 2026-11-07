@@ -1,0 +1,12 @@
+{
+  "moviesWatched": [
+    {
+      "title": "Homem-aranha: No Aranhaverso",
+      "rate": 10,
+      "watchDate": "18/10/2018",
+      "comment": "MUITO BOM!",
+      "id": "rmOW0KZTjLc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

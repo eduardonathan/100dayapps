@@ -1,0 +1,19 @@
+{
+  "books": [
+    {
+      "title": "O Nome do Vento",
+      "author": "Patrick Rothfuss",
+      "year": 2007,
+      "status": "disponível",
+      "id": "GNDzEG1LiXo"
+    },
+    {
+      "title": "Duna",
+      "author": "Frank Herbert",
+      "year": 1965,
+      "status": "emprestado",
+      "id": "Q99ThqlJ3yI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

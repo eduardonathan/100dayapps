@@ -1,0 +1,117 @@
+:root {
+  /* neutros — papel quente, tinta fria */
+  --paper: #f7f6f3;
+  --surface: #ffffff;
+  --surface-2: #fbfaf8;
+  --line: #e5e2db;
+  --line-strong: #d6d2c8;
+  --ink: #1c1b1a;
+  --ink-soft: #57534e;
+  --ink-faint: #8a857d;
+
+  /* acento único — azul de suporte, levemente dessaturado */
+  --brand: #2f5fd6;
+  --brand-strong: #244bad;
+  --brand-tint: #eaf0fd;
+  --brand-ring: rgba(47, 95, 214, 0.32);
+
+  /* semânticos */
+  --ok: #1f7a4d;
+  --ok-tint: #e4f3ea;
+  --warn: #b25f00;
+  --warn-tint: #fbeedd;
+  --danger: #b3261e;
+  --danger-tint: #fbe6e4;
+  --slate: #4a5568;
+  --slate-tint: #eceef1;
+
+  --radius: 10px;
+  --radius-sm: 7px;
+  --shadow-sm: 0 1px 2px rgba(28, 27, 26, 0.06);
+  --shadow-pop: 0 12px 32px -12px rgba(28, 27, 26, 0.28);
+
+  --sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    sans-serif;
+  --mono: ui-monospace, "SF Mono", "JetBrains Mono", Menlo, Consolas, monospace;
+
+  color-scheme: light dark;
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--ink);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #17171a;
+    --surface: #202024;
+    --surface-2: #26262b;
+    --line: #34343b;
+    --line-strong: #43434c;
+    --ink: #ecebe8;
+    --ink-soft: #b5b2ab;
+    --ink-faint: #85817a;
+
+    --brand: #6f9bff;
+    --brand-strong: #8db0ff;
+    --brand-tint: #1e2a45;
+    --brand-ring: rgba(111, 155, 255, 0.35);
+
+    --ok: #5cc98c;
+    --ok-tint: #17331f;
+    --warn: #e0a35a;
+    --warn-tint: #3a2a13;
+    --danger: #f08a82;
+    --danger-tint: #3b1c1a;
+    --slate: #9aa5b4;
+    --slate-tint: #2a2c31;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --shadow-pop: 0 16px 40px -14px rgba(0, 0, 0, 0.6);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+input,
+select,
+button {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--brand-ring);
+}

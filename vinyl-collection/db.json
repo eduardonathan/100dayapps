@@ -1,0 +1,52 @@
+{
+  "vinyls": [
+    {
+      "id": "1",
+      "title": "Kind of Blue",
+      "artist": "Miles Davis",
+      "year": 1959,
+      "genre": "Jazz",
+      "price": 189.9
+    },
+    {
+      "id": "2",
+      "title": "Abbey Road",
+      "artist": "The Beatles",
+      "year": 1969,
+      "genre": "Rock",
+      "price": 229.9
+    },
+    {
+      "id": "3",
+      "title": "Clube da Esquina",
+      "artist": "Milton Nascimento & Lô Borges",
+      "year": 1972,
+      "genre": "MPB",
+      "price": 249
+    },
+    {
+      "id": "4",
+      "title": "Rumours",
+      "artist": "Fleetwood Mac",
+      "year": 1977,
+      "genre": "Rock",
+      "price": 199.5
+    },
+    {
+      "id": "5",
+      "title": "Tábua de Esmeralda",
+      "artist": "Jorge Ben",
+      "year": 1974,
+      "genre": "Samba Rock",
+      "price": 219.9
+    },
+    {
+      "title": "The big payback",
+      "artist": "James Brown",
+      "year": 1976,
+      "genre": "soul",
+      "price": 76,
+      "id": "7sA-VCf"
+    }
+  ]
+}

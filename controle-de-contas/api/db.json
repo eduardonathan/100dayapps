@@ -1,0 +1,12 @@
+{
+  "contas": [
+    {
+      "dueDate": "31/09/2026",
+      "status": "Pago",
+      "total": "113,00",
+      "type": "Conta Emporio da Comida",
+      "id": "dzCKPfzZ20I"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

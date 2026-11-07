@@ -1,0 +1,35 @@
+{
+  "veiculos": [
+    {
+      "id": "1",
+      "placa": "ABC1D221",
+      "modelo": "Fiat Uno",
+      "ano": 2015
+    },
+    {
+      "id": "2",
+      "placa": "XYZ9K87",
+      "modelo": "Chevrolet Onix",
+      "ano": 2020
+    },
+    {
+      "id": "3",
+      "placa": "JKL4M56",
+      "modelo": "Volkswagen Gol",
+      "ano": 2018
+    },
+    {
+      "id": "4",
+      "placa": "QWE7R21",
+      "modelo": "Toyota Corolla",
+      "ano": 2022
+    },
+    {
+      "id": "5",
+      "placa": "HGF3B90",
+      "modelo": "Honda Civic",
+      "ano": 2019
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

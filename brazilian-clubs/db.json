@@ -1,0 +1,236 @@
+{
+  "clubs": [
+    {
+      "id": "1",
+      "name": "Santos Futebol Clube",
+      "city": "Santos",
+      "state": "SP",
+      "foundedYear": 1912,
+      "titles": 22
+    },
+    {
+      "id": "2",
+      "name": "Sociedade Esportiva Palmeiras",
+      "city": "São Paulo",
+      "state": "SP",
+      "foundedYear": 1914,
+      "titles": 26
+    },
+    {
+      "id": "3",
+      "name": "Sport Club Corinthians Paulista",
+      "city": "São Paulo",
+      "state": "SP",
+      "foundedYear": 1910,
+      "titles": 30
+    },
+    {
+      "id": "4",
+      "name": "São Paulo Futebol Clube",
+      "city": "São Paulo",
+      "state": "SP",
+      "foundedYear": 1930,
+      "titles": 22
+    },
+    {
+      "id": "5",
+      "name": "Clube de Regatas do Flamengo",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "foundedYear": 1895,
+      "titles": 38
+    },
+    {
+      "id": "6",
+      "name": "Fluminense Football Club",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "foundedYear": 1902,
+      "titles": 33
+    },
+    {
+      "id": "7",
+      "name": "Club de Regatas Vasco da Gama",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "foundedYear": 1898,
+      "titles": 24
+    },
+    {
+      "id": "8",
+      "name": "Botafogo de Futebol e Regatas",
+      "city": "Rio de Janeiro",
+      "state": "RJ",
+      "foundedYear": 1904,
+      "titles": 21
+    },
+    {
+      "id": "9",
+      "name": "Grêmio Foot-Ball Porto Alegrense",
+      "city": "Porto Alegre",
+      "state": "RS",
+      "foundedYear": 1903,
+      "titles": 43
+    },
+    {
+      "id": "10",
+      "name": "Sport Club Internacional",
+      "city": "Porto Alegre",
+      "state": "RS",
+      "foundedYear": 1909,
+      "titles": 45
+    },
+    {
+      "id": "11",
+      "name": "Cruzeiro Esporte Clube",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "foundedYear": 1921,
+      "titles": 38
+    },
+    {
+      "id": "12",
+      "name": "Clube Atlético Mineiro",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "foundedYear": 1908,
+      "titles": 49
+    },
+    {
+      "id": "13",
+      "name": "América Futebol Clube",
+      "city": "Belo Horizonte",
+      "state": "MG",
+      "foundedYear": 1912,
+      "titles": 16
+    },
+    {
+      "id": "14",
+      "name": "Esporte Clube Bahia",
+      "city": "Salvador",
+      "state": "BA",
+      "foundedYear": 1931,
+      "titles": 51
+    },
+    {
+      "id": "15",
+      "name": "Esporte Clube Vitória",
+      "city": "Salvador",
+      "state": "BA",
+      "foundedYear": 1899,
+      "titles": 30
+    },
+    {
+      "id": "16",
+      "name": "Sport Club do Recife",
+      "city": "Recife",
+      "state": "PE",
+      "foundedYear": 1905,
+      "titles": 43
+    },
+    {
+      "id": "17",
+      "name": "Clube Náutico Capibaribe",
+      "city": "Recife",
+      "state": "PE",
+      "foundedYear": 1901,
+      "titles": 24
+    },
+    {
+      "id": "18",
+      "name": "Santa Cruz Futebol Clube",
+      "city": "Recife",
+      "state": "PE",
+      "foundedYear": 1914,
+      "titles": 29
+    },
+    {
+      "id": "19",
+      "name": "Ceará Sporting Club",
+      "city": "Fortaleza",
+      "state": "CE",
+      "foundedYear": 1914,
+      "titles": 46
+    },
+    {
+      "id": "20",
+      "name": "Fortaleza Esporte Clube",
+      "city": "Fortaleza",
+      "state": "CE",
+      "foundedYear": 1918,
+      "titles": 46
+    },
+    {
+      "id": "21",
+      "name": "Coritiba Foot Ball Club",
+      "city": "Curitiba",
+      "state": "PR",
+      "foundedYear": 1909,
+      "titles": 39
+    },
+    {
+      "id": "22",
+      "name": "Club Athletico Paranaense",
+      "city": "Curitiba",
+      "state": "PR",
+      "foundedYear": 1924,
+      "titles": 28
+    },
+    {
+      "id": "23",
+      "name": "Goiás Esporte Clube",
+      "city": "Goiânia",
+      "state": "GO",
+      "foundedYear": 1943,
+      "titles": 28
+    },
+    {
+      "id": "24",
+      "name": "Paysandu Sport Club",
+      "city": "Belém",
+      "state": "PA",
+      "foundedYear": 1914,
+      "titles": 50
+    },
+    {
+      "id": "25",
+      "name": "Clube do Remo",
+      "city": "Belém",
+      "state": "PA",
+      "foundedYear": 1905,
+      "titles": 47
+    },
+    {
+      "id": "26",
+      "name": "Avaí Futebol Clube",
+      "city": "Florianópolis",
+      "state": "SC",
+      "foundedYear": 1923,
+      "titles": 18
+    },
+    {
+      "id": "27",
+      "name": "Figueirense Futebol Clube",
+      "city": "Florianópolis",
+      "state": "SC",
+      "foundedYear": 1921,
+      "titles": 18
+    },
+    {
+      "id": "28",
+      "name": "Associação Chapecoense de Futebol",
+      "city": "Chapecó",
+      "state": "SC",
+      "foundedYear": 1973,
+      "titles": 7
+    },
+    {
+      "id": "29",
+      "name": "Criciúma Esporte Clube",
+      "city": "Criciúma",
+      "state": "SC",
+      "foundedYear": 1947,
+      "titles": 11
+    }
+  ]
+}

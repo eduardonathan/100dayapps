@@ -1,0 +1,186 @@
+{
+  "plants": [
+    {
+      "id": "1",
+      "name": "Costela-de-adão",
+      "species": "Monstera deliciosa",
+      "waterFrequencyDays": 7,
+      "price": 11
+    },
+    {
+      "id": "2",
+      "name": "Espada-de-são-jorge",
+      "species": "Dracaena trifasciata",
+      "waterFrequencyDays": 15,
+      "price": 39.9
+    },
+    {
+      "id": "3",
+      "name": "Jiboia",
+      "species": "Epipremnum aureum",
+      "waterFrequencyDays": 7,
+      "price": 29.9
+    },
+    {
+      "id": "4",
+      "name": "Zamioculca",
+      "species": "Zamioculcas zamiifolia",
+      "waterFrequencyDays": 14,
+      "price": 59.9
+    },
+    {
+      "id": "5",
+      "name": "Samambaia",
+      "species": "Nephrolepis exaltata",
+      "waterFrequencyDays": 3,
+      "price": 34.9
+    },
+    {
+      "id": "6",
+      "name": "Lírio-da-paz",
+      "species": "Spathiphyllum wallisii",
+      "waterFrequencyDays": 4,
+      "price": 44.9
+    },
+    {
+      "id": "7",
+      "name": "Figueira-lira",
+      "species": "Ficus lyrata",
+      "waterFrequencyDays": 7,
+      "price": 149.9
+    },
+    {
+      "id": "8",
+      "name": "Peperômia",
+      "species": "Peperomia obtusifolia",
+      "waterFrequencyDays": 7,
+      "price": 24.9
+    },
+    {
+      "id": "9",
+      "name": "Maranta",
+      "species": "Maranta leuconeura",
+      "waterFrequencyDays": 4,
+      "price": 32.9
+    },
+    {
+      "id": "10",
+      "name": "Calathea",
+      "species": "Goeppertia orbifolia",
+      "waterFrequencyDays": 4,
+      "price": 69.9
+    },
+    {
+      "id": "11",
+      "name": "Palmeira-ráfis",
+      "species": "Rhapis excelsa",
+      "waterFrequencyDays": 5,
+      "price": 119.9
+    },
+    {
+      "id": "12",
+      "name": "Babosa",
+      "species": "Aloe vera",
+      "waterFrequencyDays": 14,
+      "price": 19.9
+    },
+    {
+      "id": "13",
+      "name": "Suculenta-rosa-de-pedra",
+      "species": "Echeveria elegans",
+      "waterFrequencyDays": 10,
+      "price": 14.9
+    },
+    {
+      "id": "14",
+      "name": "Cacto-mandacaru",
+      "species": "Cereus jamacaru",
+      "waterFrequencyDays": 21,
+      "price": 49.9
+    },
+    {
+      "id": "15",
+      "name": "Orquídea-borboleta",
+      "species": "Phalaenopsis amabilis",
+      "waterFrequencyDays": 7,
+      "price": 79.9
+    },
+    {
+      "id": "16",
+      "name": "Antúrio",
+      "species": "Anthurium andraeanum",
+      "waterFrequencyDays": 4,
+      "price": 54.9
+    },
+    {
+      "id": "17",
+      "name": "Clorofito",
+      "species": "Chlorophytum comosum",
+      "waterFrequencyDays": 5,
+      "price": 22.9
+    },
+    {
+      "id": "18",
+      "name": "Singônio",
+      "species": "Syngonium podophyllum",
+      "waterFrequencyDays": 5,
+      "price": 27.9
+    },
+    {
+      "id": "19",
+      "name": "Filodendro-brasil",
+      "species": "Philodendron hederaceum",
+      "waterFrequencyDays": 6,
+      "price": 31.9
+    },
+    {
+      "id": "20",
+      "name": "Hera-inglesa",
+      "species": "Hedera helix",
+      "waterFrequencyDays": 5,
+      "price": 26.9
+    },
+    {
+      "id": "21",
+      "name": "Bromélia",
+      "species": "Guzmania lingulata",
+      "waterFrequencyDays": 7,
+      "price": 42.9
+    },
+    {
+      "id": "22",
+      "name": "Begônia-maculata",
+      "species": "Begonia maculata",
+      "waterFrequencyDays": 5,
+      "price": 47.9
+    },
+    {
+      "id": "23",
+      "name": "Pilea",
+      "species": "Pilea peperomioides",
+      "waterFrequencyDays": 7,
+      "price": 36.9
+    },
+    {
+      "id": "24",
+      "name": "Alocasia",
+      "species": "Alocasia amazonica",
+      "waterFrequencyDays": 5,
+      "price": 89.9
+    },
+    {
+      "id": "25",
+      "name": "Lavanda",
+      "species": "Lavandula angustifolia",
+      "waterFrequencyDays": 3,
+      "price": 29.9
+    },
+    {
+      "id": "26",
+      "name": "Manjericão",
+      "species": "Ocimum basilicum",
+      "waterFrequencyDays": 2,
+      "price": 9.9
+    }
+  ]
+}

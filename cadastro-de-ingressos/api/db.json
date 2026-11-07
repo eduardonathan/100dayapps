@@ -1,0 +1,17 @@
+{
+  "ingressos": [
+    {
+      "preco": "700,00",
+      "dia": "20/09/2028",
+      "assento": "1B7",
+      "id": "RA2_AiXSXFA"
+    },
+    {
+      "preco": "300,00",
+      "dia": "09/09/2026",
+      "assento": "E67",
+      "id": "nlwf9RTDvR4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

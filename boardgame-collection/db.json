@@ -1,0 +1,44 @@
+{
+  "boardgames": [
+    {
+      "id": "1",
+      "title": "Catan",
+      "publisher": "Kosmos",
+      "minPlayers": 3,
+      "maxPlayers": 4,
+      "price": 299.9
+    },
+    {
+      "id": "2",
+      "title": "Ticket to Ride",
+      "publisher": "Days of Wonder",
+      "minPlayers": 2,
+      "maxPlayers": 5,
+      "price": 349.9
+    },
+    {
+      "id": "3",
+      "title": "Azul",
+      "publisher": "Plan B Games",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "price": 269.9
+    },
+    {
+      "id": "4",
+      "title": "Pandemic",
+      "publisher": "Z-Man Games",
+      "minPlayers": 2,
+      "maxPlayers": 4,
+      "price": 279.9
+    },
+    {
+      "title": "monopoly",
+      "publisher": "hasbro",
+      "minPlayers": 4,
+      "maxPlayers": 8,
+      "price": 200,
+      "id": "5bQcrxC"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "reservas": [
+    {
+      "hospede": "Ed Ney",
+      "quarto": "137",
+      "noites": 10,
+      "id": "G6JA4iCTdts"
+    },
+    {
+      "hospede": "Maria Silva",
+      "quarto": "204",
+      "noites": 3,
+      "id": "P2LK9mVxRqw"
+    },
+    {
+      "hospede": "João Pereira",
+      "quarto": "310",
+      "noites": 7,
+      "id": "T5NB1oWzFke"
+    },
+    {
+      "hospede": "Ana Costa",
+      "quarto": "118",
+      "noites": 2,
+      "id": "H8QY3pJmDxc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

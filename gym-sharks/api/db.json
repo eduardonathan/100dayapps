@@ -1,0 +1,45 @@
+{
+  "classSchedules": [
+    {
+      "modality": "Cross",
+      "instructor": "Léo Freitas",
+      "time": "07:00",
+      "capacity": 16,
+      "enrolled": 9,
+      "id": "cross-0700"
+    },
+    {
+      "modality": "Yoga",
+      "instructor": "Marina Alves",
+      "time": "12:15",
+      "capacity": 12,
+      "enrolled": 5,
+      "id": "yoga-1215"
+    },
+    {
+      "modality": "Spinning",
+      "instructor": "Rafa Nunes",
+      "time": "18:30",
+      "capacity": 20,
+      "enrolled": 17,
+      "id": "spin-1830"
+    },
+    {
+      "modality": "Jiu-Jitsu",
+      "instructor": "Léo Freitas",
+      "time": "19:00",
+      "capacity": 14,
+      "enrolled": 0,
+      "id": "barJVWsRnvM"
+    },
+    {
+      "modality": "Boxe",
+      "instructor": "GABRIEL BRITO",
+      "time": "20:00",
+      "capacity": 15,
+      "enrolled": 0,
+      "id": "ZLeQJiCXyfE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

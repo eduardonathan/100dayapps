@@ -1,0 +1,25 @@
+{
+  "tarefas": [
+    {
+      "title": "aaa",
+      "completed": true,
+      "id": "oQIbTPO1lJw"
+    },
+    {
+      "title": "dad",
+      "completed": false,
+      "id": "a3QurCuqRks"
+    },
+    {
+      "title": "ffvd",
+      "completed": false,
+      "id": "ChjWaTgNasQ"
+    },
+    {
+      "title": "wqeqw",
+      "completed": false,
+      "id": "w3Kdz5-xbjw"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

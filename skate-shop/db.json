@@ -1,0 +1,186 @@
+{
+  "skateboards": [
+    {
+      "id": "1",
+      "model": "Classic Logo 8.0",
+      "brand": "Element",
+      "lengthCm": 80,
+      "price": 600
+    },
+    {
+      "id": "2",
+      "model": "Section 8.25",
+      "brand": "Element",
+      "lengthCm": 81,
+      "price": 469.9
+    },
+    {
+      "id": "3",
+      "model": "Team Black 8.0",
+      "brand": "Baker",
+      "lengthCm": 80,
+      "price": 499.9
+    },
+    {
+      "id": "4",
+      "model": "Brand Logo 8.38",
+      "brand": "Baker",
+      "lengthCm": 81.9,
+      "price": 519.9
+    },
+    {
+      "id": "5",
+      "model": "Chocolate Chunk 8.0",
+      "brand": "Chocolate",
+      "lengthCm": 80,
+      "price": 489.9
+    },
+    {
+      "id": "6",
+      "model": "Santa Cruz Screaming Hand 8.25",
+      "brand": "Santa Cruz",
+      "lengthCm": 81.3,
+      "price": 529.9
+    },
+    {
+      "id": "7",
+      "model": "Dot 8.0",
+      "brand": "Santa Cruz",
+      "lengthCm": 80,
+      "price": 479.9
+    },
+    {
+      "id": "8",
+      "model": "Shmoo 8.25",
+      "brand": "Girl",
+      "lengthCm": 81.3,
+      "price": 499.9
+    },
+    {
+      "id": "9",
+      "model": "Classic Plus 8.0",
+      "brand": "Plan B",
+      "lengthCm": 80.6,
+      "price": 459.9
+    },
+    {
+      "id": "10",
+      "model": "Bones Brigade Series 8.25",
+      "brand": "Powell Peralta",
+      "lengthCm": 81.3,
+      "price": 649.9
+    },
+    {
+      "id": "11",
+      "model": "Ripper 10.0",
+      "brand": "Powell Peralta",
+      "lengthCm": 79.4,
+      "price": 599.9
+    },
+    {
+      "id": "12",
+      "model": "Mini Logo Complete 7.75",
+      "brand": "Mini Logo",
+      "lengthCm": 79.1,
+      "price": 389.9
+    },
+    {
+      "id": "13",
+      "model": "Primitive Rodriguez 8.125",
+      "brand": "Primitive",
+      "lengthCm": 81.3,
+      "price": 539.9
+    },
+    {
+      "id": "14",
+      "model": "Real Oval 8.25",
+      "brand": "Real",
+      "lengthCm": 81.6,
+      "price": 489.9
+    },
+    {
+      "id": "15",
+      "model": "Anti Hero Eagle 8.38",
+      "brand": "Anti Hero",
+      "lengthCm": 81.9,
+      "price": 519.9
+    },
+    {
+      "id": "16",
+      "model": "Zero Single Skull 8.0",
+      "brand": "Zero",
+      "lengthCm": 80,
+      "price": 479.9
+    },
+    {
+      "id": "17",
+      "model": "Flip Team Odyssey 8.0",
+      "brand": "Flip",
+      "lengthCm": 80,
+      "price": 469.9
+    },
+    {
+      "id": "18",
+      "model": "April Shane O'Neill 8.25",
+      "brand": "April",
+      "lengthCm": 81.3,
+      "price": 549.9
+    },
+    {
+      "id": "19",
+      "model": "Hondar Classic 8.0",
+      "brand": "Hondar",
+      "lengthCm": 80,
+      "price": 299.9
+    },
+    {
+      "id": "20",
+      "model": "Drop Dead Pro 8.0",
+      "brand": "Drop Dead",
+      "lengthCm": 80,
+      "price": 329.9
+    },
+    {
+      "id": "21",
+      "model": "Cruiser Pintail 40\"",
+      "brand": "Landyachtz",
+      "lengthCm": 101.6,
+      "price": 899.9
+    },
+    {
+      "id": "22",
+      "model": "Penny Classic 22\"",
+      "brand": "Penny",
+      "lengthCm": 55.9,
+      "price": 449.9
+    },
+    {
+      "id": "23",
+      "model": "Globe Big Blazer 32\"",
+      "brand": "Globe",
+      "lengthCm": 81.3,
+      "price": 699.9
+    },
+    {
+      "id": "24",
+      "model": "Sector 9 Bamboo Pintail",
+      "brand": "Sector 9",
+      "lengthCm": 95.3,
+      "price": 849.9
+    },
+    {
+      "id": "25",
+      "model": "Arbor Axis 40",
+      "brand": "Arbor",
+      "lengthCm": 101.6,
+      "price": 999.9
+    },
+    {
+      "id": "26",
+      "model": "Loaded Tan Tien 39\"",
+      "brand": "Loaded",
+      "lengthCm": 99.1,
+      "price": 1299.9
+    }
+  ]
+}

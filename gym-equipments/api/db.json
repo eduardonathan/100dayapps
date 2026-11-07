@@ -1,0 +1,59 @@
+{
+  "equipments": [
+    {
+      "id": "1",
+      "name": "Halter Sextavado",
+      "category": "Pesos Livres",
+      "weight": 12
+    },
+    {
+      "id": "2",
+      "name": "Barra Olímpica",
+      "category": "Pesos Livres",
+      "weight": 20
+    },
+    {
+      "id": "3",
+      "name": "Kettlebell",
+      "category": "Pesos Livres",
+      "weight": 16
+    },
+    {
+      "id": "4",
+      "name": "Anilha Bumper",
+      "category": "Pesos Livres",
+      "weight": 15
+    },
+    {
+      "id": "5",
+      "name": "Leg Press 45°",
+      "category": "Máquinas",
+      "weight": 250
+    },
+    {
+      "id": "6",
+      "name": "Cadeira Extensora",
+      "category": "Máquinas",
+      "weight": 180
+    },
+    {
+      "id": "7",
+      "name": "Esteira Elétrica",
+      "category": "Cardio",
+      "weight": 120
+    },
+    {
+      "id": "8",
+      "name": "Bicicleta Ergométrica",
+      "category": "Cardio",
+      "weight": 60
+    },
+    {
+      "id": "9",
+      "name": "Banco Supino Reto",
+      "category": "Bancos",
+      "weight": 35
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,77 @@
+:root {
+  color-scheme: light;
+
+  /* Warm off-white paper — nothing is pure #fff */
+  --bg: #f2f0ea;
+  --surface: #f8f7f2;
+  --surface-2: #eeece4;
+  --header-bg: #f4f2ec;
+
+  --text: #211f1b;
+  --text-secondary: #6a665c;
+  --text-tertiary: #928d80;
+
+  --border: #ddd9cd;
+  --border-strong: #cbc6b7;
+
+  /* Muted ink-navy accent */
+  --accent: #2c3b52;
+  --accent-hover: #24314a;
+  --accent-soft: #5a6b85;
+  --accent-tint: rgba(44, 59, 82, 0.08);
+
+  --danger: #9a3b2e;
+  --danger-tint: rgba(154, 59, 46, 0.09);
+
+  --radius-sm: 6px;
+  --radius: 9px;
+  --radius-lg: 12px;
+
+  --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display",
+    "Helvetica Neue", "Segoe UI", Roboto, Arial, sans-serif;
+
+  font-family: var(--font);
+  font-size: 15.5px;
+  line-height: 1.5;
+  color: var(--text);
+  background-color: var(--bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-synthesis: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.012em;
+  color: var(--text);
+}
+
+p {
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--accent-tint);
+}

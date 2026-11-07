@@ -1,0 +1,111 @@
+:root {
+  /* ---- Paleta clara e quente (tema culinário) ---- */
+  --bg: #fbf7f0;
+  --bg-tint: #f4ede1;
+  --surface: #ffffff;
+  --surface-soft: #fcf9f3;
+
+  --ink: #2a2320; /* texto escuro de alto contraste */
+  --ink-soft: #574c44;
+  --muted: #8a7d70;
+
+  --border: #ebe3d8;
+  --border-strong: #ddd1c0;
+
+  --accent: #c0563a; /* terracota */
+  --accent-hover: #a8452c;
+  --accent-soft: #f6e7e1;
+  --accent-ring: rgba(192, 86, 58, 0.28);
+
+  --herb: #5c6b4a; /* verde ervas */
+  --herb-soft: #eaeee1;
+  --honey: #b9812f; /* dourado */
+  --honey-soft: #f6ecd9;
+
+  --danger: #a83a3a;
+  --danger-soft: #f6e2e0;
+
+  --shadow-sm: 0 1px 2px rgba(42, 35, 32, 0.06);
+  --shadow-md:
+    0 6px 16px -6px rgba(42, 35, 32, 0.14), 0 2px 6px -2px rgba(42, 35, 32, 0.08);
+  --shadow-lg:
+    0 24px 48px -18px rgba(42, 35, 32, 0.24),
+    0 8px 20px -10px rgba(42, 35, 32, 0.14);
+
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 22px;
+
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --serif: "Fraunces", "Iowan Old Style", Georgia, "Times New Roman", serif;
+
+  font-family: var(--sans);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+  background-color: var(--bg);
+  color-scheme: light;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(
+      circle at 12% -10%,
+      rgba(192, 86, 58, 0.08),
+      transparent 42%
+    ),
+    radial-gradient(circle at 92% 0%, rgba(185, 129, 47, 0.09), transparent 40%);
+  background-attachment: fixed;
+}
+
+#root {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 24px 96px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif);
+  color: var(--ink);
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.01em;
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent-hover);
+}

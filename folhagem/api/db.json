@@ -1,0 +1,19 @@
+{
+  "plants": [
+    {
+      "name": "Costela-de-adão",
+      "species": "Monstera deliciosa",
+      "waterEveryDays": 7,
+      "status": "saudável",
+      "id": "GNDzEG1LiXo"
+    },
+    {
+      "name": "Samambaia da sala",
+      "species": "Nephrolepis exaltata",
+      "waterEveryDays": 3,
+      "status": "saudável",
+      "id": "Q99ThqlJ3yI"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

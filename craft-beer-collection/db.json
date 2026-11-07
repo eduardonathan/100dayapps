@@ -1,0 +1,244 @@
+{
+  "beers": [
+    {
+      "id": "1",
+      "name": "Colorado Indica",
+      "brewery": "Cervejaria Colorado",
+      "style": "India Pale Ale",
+      "abv": 7.0,
+      "price": 24.9
+    },
+    {
+      "id": "2",
+      "name": "Colorado Appia",
+      "brewery": "Cervejaria Colorado",
+      "style": "Honey Wheat",
+      "abv": 5.5,
+      "price": 21.9
+    },
+    {
+      "id": "3",
+      "name": "Eisenbahn Pilsen",
+      "brewery": "Eisenbahn",
+      "style": "Pilsen",
+      "abv": 4.8,
+      "price": 9.9
+    },
+    {
+      "id": "4",
+      "name": "Eisenbahn Dunkel",
+      "brewery": "Eisenbahn",
+      "style": "Dunkel",
+      "abv": 4.8,
+      "price": 12.9
+    },
+    {
+      "id": "5",
+      "name": "Baden Baden Red Ale",
+      "brewery": "Baden Baden",
+      "style": "Red Ale",
+      "abv": 6.2,
+      "price": 19.9
+    },
+    {
+      "id": "6",
+      "name": "Way Amburana Lager",
+      "brewery": "Way Beer",
+      "style": "Amber Lager",
+      "abv": 8.4,
+      "price": 34.9
+    },
+    {
+      "id": "7",
+      "name": "Way American Pale Ale",
+      "brewery": "Way Beer",
+      "style": "American Pale Ale",
+      "abv": 5.8,
+      "price": 22.9
+    },
+    {
+      "id": "8",
+      "name": "Bodebrown Wee Heavy",
+      "brewery": "Bodebrown",
+      "style": "Scotch Ale",
+      "abv": 8.0,
+      "price": 39.9
+    },
+    {
+      "id": "9",
+      "name": "Bodebrown Perigosa",
+      "brewery": "Bodebrown",
+      "style": "Imperial IPA",
+      "abv": 9.2,
+      "price": 36.9
+    },
+    {
+      "id": "10",
+      "name": "Tupiniquim Monjolo",
+      "brewery": "Tupiniquim",
+      "style": "Imperial Porter",
+      "abv": 10.5,
+      "price": 42.9
+    },
+    {
+      "id": "11",
+      "name": "Dádiva Lager",
+      "brewery": "Dádiva",
+      "style": "Lager",
+      "abv": 4.5,
+      "price": 14.9
+    },
+    {
+      "id": "12",
+      "name": "Dogma Rizoma",
+      "brewery": "Dogma",
+      "style": "IPA",
+      "abv": 7.2,
+      "price": 32.9
+    },
+    {
+      "id": "13",
+      "name": "Hocus Pocus Magic Trap",
+      "brewery": "Hocus Pocus",
+      "style": "Double IPA",
+      "abv": 8.5,
+      "price": 38.9
+    },
+    {
+      "id": "14",
+      "name": "Seasons Green Cow",
+      "brewery": "Seasons",
+      "style": "IPA",
+      "abv": 7.0,
+      "price": 29.9
+    },
+    {
+      "id": "15",
+      "name": "Wäls Quadruppel",
+      "brewery": "Wäls",
+      "style": "Belgian Quadrupel",
+      "abv": 11.0,
+      "price": 44.9
+    },
+    {
+      "id": "16",
+      "name": "Wäls Witte",
+      "brewery": "Wäls",
+      "style": "Witbier",
+      "abv": 4.9,
+      "price": 18.9
+    },
+    {
+      "id": "17",
+      "name": "Mea Culpa Gose",
+      "brewery": "Mea Culpa",
+      "style": "Gose",
+      "abv": 4.2,
+      "price": 24.9
+    },
+    {
+      "id": "18",
+      "name": "Blumenau Catharina Sour",
+      "brewery": "Cervejaria Blumenau",
+      "style": "Catharina Sour",
+      "abv": 4.0,
+      "price": 19.9
+    },
+    {
+      "id": "19",
+      "name": "Paulistânia Stout",
+      "brewery": "Paulistânia",
+      "style": "Dry Stout",
+      "abv": 5.0,
+      "price": 17.9
+    },
+    {
+      "id": "20",
+      "name": "Invicta Maria Degolada",
+      "brewery": "Invicta",
+      "style": "Imperial Stout",
+      "abv": 10.0,
+      "price": 39.9
+    },
+    {
+      "id": "21",
+      "name": "Guinness Draught",
+      "brewery": "Guinness",
+      "style": "Irish Stout",
+      "abv": 4.2,
+      "price": 16.9
+    },
+    {
+      "id": "22",
+      "name": "Brewdog Punk IPA",
+      "brewery": "BrewDog",
+      "style": "IPA",
+      "abv": 5.4,
+      "price": 22.9
+    },
+    {
+      "id": "23",
+      "name": "Weihenstephaner Hefeweissbier",
+      "brewery": "Weihenstephan",
+      "style": "Hefeweizen",
+      "abv": 5.4,
+      "price": 24.9
+    },
+    {
+      "id": "24",
+      "name": "Chimay Blue",
+      "brewery": "Chimay",
+      "style": "Belgian Strong Dark Ale",
+      "abv": 9.0,
+      "price": 49.9
+    },
+    {
+      "id": "25",
+      "name": "Duvel",
+      "brewery": "Duvel Moortgat",
+      "style": "Belgian Golden Strong Ale",
+      "abv": 8.5,
+      "price": 34.9
+    },
+    {
+      "id": "26",
+      "name": "Sierra Nevada Pale Ale",
+      "brewery": "Sierra Nevada",
+      "style": "American Pale Ale",
+      "abv": 5.6,
+      "price": 27.9
+    },
+    {
+      "id": "27",
+      "name": "Paulaner Salvator",
+      "brewery": "Paulaner",
+      "style": "Doppelbock",
+      "abv": 7.9,
+      "price": 26.9
+    },
+    {
+      "id": "28",
+      "name": "Leffe Brune",
+      "brewery": "Leffe",
+      "style": "Belgian Dubbel",
+      "abv": 6.5,
+      "price": 19.9
+    },
+    {
+      "id": "29",
+      "name": "Schneider Aventinus",
+      "brewery": "Schneider Weisse",
+      "style": "Weizenbock",
+      "abv": 8.2,
+      "price": 32.9
+    },
+    {
+      "id": "30",
+      "name": "Hoegaarden",
+      "brewery": "Hoegaarden",
+      "style": "Witbier",
+      "abv": 4.9,
+      "price": 14.9
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "appointments": [
+    {
+      "clientName": "Neymar",
+      "service": "Barba + corte",
+      "professional": "Edu Menezes",
+      "date": "14/09/2026",
+      "time": "12:00",
+      "status": "Feito",
+      "id": "rV3rBDtPhQk"
+    },
+    {
+      "clientName": "Nathan",
+      "service": "Corte + Barba",
+      "professional": "Edu Menezes",
+      "date": "12/02/2026",
+      "time": "09:30",
+      "status": "Agendado",
+      "id": "HiIWCIZCDZk"
+    },
+    {
+      "clientName": "ney",
+      "service": "Corte",
+      "professional": "Edu Menezes",
+      "date": "29/08/2026",
+      "time": "28:00",
+      "status": "Agendado",
+      "id": "GzcG56D_360"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,411 @@
+/* ---- Estrutura da aplicação ---- */
+.shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar__inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 12px 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.brand__name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+
+.topbar__nav {
+  display: flex;
+  gap: 2px;
+  margin-right: auto;
+}
+
+.navlink {
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--body);
+  text-decoration: none;
+  border-radius: var(--radius-sm);
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.navlink:hover,
+.navlink.is-active {
+  background: var(--green-50);
+  color: var(--green-800);
+}
+
+.page {
+  flex: 1;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 32px 24px 64px;
+}
+
+/* ---- Cabeçalho de página ---- */
+.page-head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.page-head__title {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.page-head__sub {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+/* ---- Indicadores ---- */
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.stat {
+  padding: 16px 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.stat__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.stat__label {
+  margin-top: 2px;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.stat--warn .stat__value {
+  color: var(--amber-700);
+}
+
+.stat--danger .stat__value {
+  color: var(--red-700);
+}
+
+/* ---- Grade de medicamentos ---- */
+.med-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.med {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px;
+}
+
+.med__head {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.med__name {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.med__maker {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.med__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.med__metrics {
+  display: flex;
+  gap: 24px;
+  padding: 12px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.med__metric {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.med__metric-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--faint);
+}
+
+.med__metric-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.med__actions {
+  display: flex;
+  gap: 8px;
+}
+
+.med__actions .btn {
+  flex: 1;
+}
+
+.med__edit {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.med__edit-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.med__edit-actions .btn {
+  flex: 1;
+}
+
+/* ---- Painéis de estado (carregando / erro / vazio) ---- */
+.panel {
+  padding: 48px 24px;
+  text-align: center;
+  color: var(--muted);
+  background: var(--surface-2);
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius);
+}
+
+.panel__title {
+  margin-bottom: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.panel--error {
+  color: var(--red-700);
+  background: var(--red-50);
+  border-style: solid;
+  border-color: var(--red-100);
+}
+
+.panel--error .panel__title {
+  color: var(--red-700);
+}
+
+.spinner {
+  width: 22px;
+  height: 22px;
+  margin: 0 auto 12px;
+  border: 2px solid var(--green-100);
+  border-top-color: var(--green-600);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ---- Formulário de cadastro ---- */
+.form-card {
+  max-width: 520px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+/* ---- Tela de acesso ---- */
+.auth {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background:
+    radial-gradient(1100px 460px at 50% -20%, var(--green-50), transparent),
+    var(--bg);
+}
+
+.auth__card {
+  width: 100%;
+  max-width: 860px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.auth__brand {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px;
+  background: var(--green-700);
+  color: #ffffff;
+}
+
+.auth__brand .brandmark__tile {
+  fill: #ffffff;
+}
+
+.auth__brand .brandmark__cross {
+  fill: var(--green-700);
+}
+
+.auth__brand-name {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.auth__brand-tag {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.auth__points {
+  list-style: none;
+  margin: auto 0 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.auth__points li {
+  position: relative;
+  padding-left: 24px;
+  font-size: 0.88rem;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.auth__points li::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 2px;
+  width: 6px;
+  height: 11px;
+  border: solid rgba(255, 255, 255, 0.9);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.auth__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+  padding: 44px 40px;
+}
+
+.auth__lead {
+  font-size: 0.92rem;
+  color: var(--muted);
+}
+
+.auth__note {
+  font-size: 0.8rem;
+  color: var(--faint);
+  text-align: center;
+}
+
+/* ---- Responsivo ---- */
+@media (max-width: 720px) {
+  .topbar__inner {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  .page-head {
+    flex-direction: column;
+  }
+
+  .auth__card {
+    grid-template-columns: 1fr;
+    max-width: 420px;
+  }
+
+  .auth__brand {
+    padding: 32px;
+  }
+
+  .auth__points {
+    margin-top: 4px;
+  }
+
+  .auth__form {
+    padding: 32px;
+  }
+}

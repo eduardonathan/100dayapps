@@ -1,0 +1,77 @@
+{
+  "pedidos": [
+    {
+      "cliente": "Eduardo Nathan",
+      "produto": "Big tasty combo",
+      "valor": 32.9,
+      "id": "1OzLEDkeZ5c"
+    },
+    {
+      "cliente": "Maria Silva",
+      "produto": "Pizza grande",
+      "valor": 45.5,
+      "id": "a1B2c3D4e5F"
+    },
+    {
+      "cliente": "João Pereira",
+      "produto": "X-Bacon duplo",
+      "valor": 28.9,
+      "id": "kT7mQ2xR9pL"
+    },
+    {
+      "cliente": "Ana Costa",
+      "produto": "Combo 2 pizzas médias",
+      "valor": 69.9,
+      "id": "j9Vn3wY6bHd"
+    },
+    {
+      "cliente": "Carlos Souza",
+      "produto": "Sushi combo 20 peças",
+      "valor": 55.0,
+      "id": "q4Rt8sN1oXe"
+    },
+    {
+      "cliente": "Fernanda Lima",
+      "produto": "Hambúrguer artesanal",
+      "valor": 24.5,
+      "id": "m6Yu2kP5dZa"
+    },
+    {
+      "cliente": "Rafael Alves",
+      "produto": "Marmita fitness",
+      "valor": 19.9,
+      "id": "h1Bg7cW3nQi"
+    },
+    {
+      "cliente": "Juliana Rocha",
+      "produto": "Açaí 500ml",
+      "valor": 18.0,
+      "id": "z8Ld4vT0mSo"
+    },
+    {
+      "cliente": "Bruno Martins",
+      "produto": "Esfiha mista (12 un)",
+      "valor": 42.0,
+      "id": "p2Xa9fH6jUr"
+    },
+    {
+      "cliente": "Larissa Fernandes",
+      "produto": "Salada Caesar com frango",
+      "valor": 27.5,
+      "id": "c5Ke1nB8yWt"
+    },
+    {
+      "cliente": "Gustavo Ribeiro",
+      "produto": "Pastel de carne (10 un)",
+      "valor": 35.0,
+      "id": "s3Om6rD4vFq"
+    },
+    {
+      "cliente": "Patrícia Gomes",
+      "produto": "Yakisoba de camarão",
+      "valor": 38.9,
+      "id": "w7Ci2tG9lAe"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

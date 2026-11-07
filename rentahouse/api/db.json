@@ -1,0 +1,13 @@
+{
+  "rentalContracts": [
+    {
+      "tenantName": "marcelo rezende",
+      "propertyAddress": "rua dos coquinhos",
+      "monthlyRent": 2000.04,
+      "startDate": "19/02/2023",
+      "status": "Ativo",
+      "id": "OAdGSQP11PY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,39 @@
+{
+  "wines": [
+    {
+      "id": "1",
+      "name": "Cabernet Sauvignon Reserva",
+      "winery": "Vinícola Salton",
+      "vintage": 2019,
+      "price": 89.9
+    },
+    {
+      "id": "2",
+      "name": "Malbec Gran Corte",
+      "winery": "Bodega Catena Zapata",
+      "vintage": 2018,
+      "price": 129.5
+    },
+    {
+      "id": "3",
+      "name": "Chardonnay Estate",
+      "winery": "Miolo Wine Group",
+      "vintage": 2021,
+      "price": 75.0
+    },
+    {
+      "id": "4",
+      "name": "Merlot Colheita",
+      "winery": "Aurora Vinhedos",
+      "vintage": 2020,
+      "price": 62.3
+    },
+    {
+      "id": "5",
+      "name": "Pinot Noir Premium",
+      "winery": "Casa Valduga",
+      "vintage": 2017,
+      "price": 154.9
+    }
+  ]
+}

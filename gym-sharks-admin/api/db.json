@@ -1,0 +1,17 @@
+{
+  "members": [
+    {
+      "name": "MIMI",
+      "plan": "super galaxy baby ultra",
+      "status": "ativo",
+      "id": "JwFFBMv6FwI"
+    },
+    {
+      "name": "NEYNEY",
+      "plan": "super galaxy baby ultra",
+      "status": "ativo",
+      "id": "DFe9yPnNGKA"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,54 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "name": "Fran- caipira",
+      "mainIngredient": "Fran- caipira",
+      "preparationTime": 90,
+      "difficulty": "Média"
+    },
+    {
+      "id": "2",
+      "name": "Feijoada Completa",
+      "mainIngredient": "Feijão preto",
+      "preparationTime": 180,
+      "difficulty": "Difícil"
+    },
+    {
+      "id": "3",
+      "name": "Moqueca de Peixe",
+      "mainIngredient": "Peixe branco",
+      "preparationTime": 60,
+      "difficulty": "Média"
+    },
+    {
+      "id": "4",
+      "name": "Strogonoff de Carne",
+      "mainIngredient": "Carne bovina",
+      "preparationTime": 40,
+      "difficulty": "Fácil"
+    },
+    {
+      "id": "5",
+      "name": "Bolo de Cenoura com Chocolate",
+      "mainIngredient": "Cenoura",
+      "preparationTime": 50,
+      "difficulty": "Fácil"
+    },
+    {
+      "id": "6",
+      "name": "Risoto de Cogumelos",
+      "mainIngredient": "Arroz arbóreo",
+      "preparationTime": 45,
+      "difficulty": "Média"
+    },
+    {
+      "name": "Fricassê de Frango",
+      "mainIngredient": "Frango desfiado, creme de leite, queijo, batata palha, requeijão.",
+      "preparationTime": 30,
+      "difficulty": "Fácil",
+      "id": "Z21kKqz8eo0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,34 @@
+{
+  "characters": [
+    {
+      "id": "1",
+      "name": "Aragorn",
+      "class": "Ranger",
+      "level": 12
+    },
+    {
+      "id": "2",
+      "name": "Elowen",
+      "class": "Mage",
+      "level": 8
+    },
+    {
+      "id": "3",
+      "name": "Grumnak",
+      "class": "Barbarian",
+      "level": 15
+    },
+    {
+      "id": "4",
+      "name": "Sister Lys",
+      "class": "Cleric",
+      "level": 9
+    },
+    {
+      "id": "5",
+      "name": "Vex Nightshade",
+      "class": "Rogue",
+      "level": 10
+    }
+  ]
+}
